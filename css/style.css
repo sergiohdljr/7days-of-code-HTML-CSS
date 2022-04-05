@@ -1,6 +1,7 @@
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
+    --background-color: #FFF;
 }
 
 *{
@@ -16,7 +17,7 @@ body{
     width: 100%;
     height: 100vh;
 }
-
+/*       BARRA DE NAVEGAÇÃO    */
 nav{
     display: flex;
     justify-content: space-around;
@@ -43,5 +44,163 @@ button{
 
 button.cadastrar{
     background : var(--main-color);
-    color: white;
+    color:var(--background-color);
+}
+
+/*       CABEÇALHO      */
+
+header{
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+header p{
+    margin-bottom: 2rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+header h1{
+    padding: 1rem;
+    font: 600 2.75rem "Inter";
+}
+
+header span{
+    color: var(--text-color);
+    text-align: center;
+}
+/*    METRICAS    */
+.metricas-container{
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 288px;
+}
+
+.card-metrica h2{
+    font: 600 3.75rem "Inter";
+    color: var(--main-color);
+}
+
+.card-metrica p{
+    padding-bottom: 0.5rem;
+}
+
+.card-metrica span{
+    text-align: end;
+    color: var(--text-color);
+    width: 100%;
+}
+/*     SEÇÃO VAGAS     */
+.vagas{
+    width: 100%;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vagas p {
+    background-color:rgb(253, 244, 244);
+    width: 130px;
+    height: 28px;
+    text-align: center;
+    padding:0.3rem;
+    border-radius: 1rem;
+    color: #8E2424;
+}
+.vagas h1{
+    padding:1rem;
+    font: 600 1.75rem "Inter";
+}
+
+.vagas span{
+    color: var(--text-color);
+    text-align: right;
+    padding-bottom: 3rem;
+}
+
+.vagas img{
+    width: 80%;
+    padding-bottom: 4rem;
+}
+
+/*      SEÇÃO VAGAS-2     */
+
+.vagas-abertas{
+    width: 100%;
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+}
+.Design{
+    width: 768px;
+    height: 358px;
+}
+
+.Design-title{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.design-vaga{
+    margin: auto;
+    width: 100%;
+    height: 118px;
+    padding:1.5rem;
+    border: 0.5px solid;
+    border-color: #EAECF0;;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.design-vaga h3 {
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.desenvolvimento-de-Software{
+    width: 768px;
+    height: 458px;
+}
+
+.title{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.desenvolvedor-vaga{
+    margin: auto;
+    width: 100%;
+    height: 118px;
+    padding:1.5rem;
+    border: 0.5px solid;
+    border-color: #EAECF0;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.desenvolvedor-vaga h3{
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.info {
+    width: 720px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.info span {
+    padding: 1rem 1rem 1rem 0rem;
+    color: var(--text-color);
 }
