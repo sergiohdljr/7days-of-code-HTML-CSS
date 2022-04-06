@@ -1,6 +1,6 @@
 #7DaysOfCode #alura ##feedback7DoC
 
-Criação de página Web 
+Criação de Layout de página Web
 
 Tecnologias usadas: HTML e CSS 
 
