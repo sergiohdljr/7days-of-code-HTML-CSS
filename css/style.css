@@ -204,3 +204,107 @@ header span{
     padding: 1rem 1rem 1rem 0rem;
     color: var(--text-color);
 }
+
+.depoimentos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos-card{
+    width: 70%;
+    height: 404px;
+    background-color:rgb(253, 244, 244);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.textos p{
+    padding: 1rem;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.textos h1{
+    text-align: center;
+    font-weight: 535;
+    font-size: 3.5rem;
+}
+
+.perfil{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.perfil img{
+    width: 52px;
+    height: 52px;
+    padding-bottom: 0.4rem;
+}
+
+.perfil h2{
+    padding-bottom: 0.2rem;
+    font-weight: 547;
+}
+
+.perfil p{
+    color: var(--text-color);
+}
+
+/*  Formulário   */
+footer{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 708px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto h2 {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+    
+}
+
+.texto p{
+    width: 768px;
+    height: 40px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.input-btn input{
+    width: 160px;
+    height: 41px;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    color: var(--text-color);
+}
+
+footer span{
+    color: var(--text-color);
+
+}
